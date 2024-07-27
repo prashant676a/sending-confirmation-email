@@ -90,7 +90,7 @@ Rails.application.configure do
   domain:               'PRASHANT',
 
   user_name:            'prashantbhandari.374@gmail.com',
-  password:             'tbvdutnxchrbcplo',
+  password:             Figaro.env.gmail_password,
 
   authentication:       'plain',
   enable_starttls_auto: true  }

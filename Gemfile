@@ -2,6 +2,9 @@ source "https://rubygems.org"
 
 ruby "3.3.0"
 
+gem 'delayed_job_active_record'
+gem 'daemons'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.4"
 
@@ -60,3 +63,5 @@ group :development do
   # gem "spring"
 end
 
+
+gem "figaro", "~> 1.2"
