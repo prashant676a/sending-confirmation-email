@@ -5,6 +5,9 @@ ruby "3.3.0"
 gem 'delayed_job_active_record'
 gem 'daemons'
 
+#jquery
+gem 'jquery-rails', '~> 4.6'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.4"
 
@@ -65,3 +68,5 @@ end
 
 
 gem "figaro", "~> 1.2"
+
+# gem "bundle", "~> 0.0.1"

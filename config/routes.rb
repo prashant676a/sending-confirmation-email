@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   # root "posts#index"
   root "pages#index"
   get "signup", to: "users#new"
+  get "check_email", to: "users#check_email"
 end

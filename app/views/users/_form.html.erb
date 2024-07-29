@@ -18,10 +18,12 @@
 
   <div>
     <%= form.label :email, style: "display: block" %>
-    <%= form.text_field :email %>
+    <%= form.text_field :email, id: 'email_field' %>
+    <div id="email_availability"></div>
   </div>
 
   <div>
     <%= form.submit %>
   </div>
+
 <% end %>
