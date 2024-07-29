@@ -56,3 +56,8 @@ rails s
 ```
 
 and visit localhost:3000 in your browser and create the new user with valid email and email will be sent to that user in gmail account from your account.
+
+8. Finally to send the mails that are queued in delayed_jobs open another terminal 
+```bash
+rake jobs:work
+```
